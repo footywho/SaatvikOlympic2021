@@ -70,20 +70,19 @@ font-family: 'Otomanopee One', sans-serif;
 /*margin:40;*/
 }
 
-p {
-font-size:40;
-background-color:pink;
+
+.pwd{
+	width:90%;
+	font-size:20px;
 }
 
-ul {
+
+ul{
 list-style: none;
-display: inline-block;
+font-size:20px;
+padding:0px;
 }
 
-ul li {
-list-style: none;
-display: inline-block;
-}
 
 nav a {
 text-decoration: none;
@@ -99,8 +98,21 @@ nav a:hover::before {
 font-size:45px;
 }
 
+.hyp{
+text-decoration:none;
+color:#3ABDC8;
+}
+
 main{
-	height:2000px;
+	height:700px;
+}
+
+.box1{
+	height:15px;
+	width:80%;
+	background-color:#cdd0d1;
+	margin-top:30px;
+	margin-bottom:30px;
 }
 
 .tooltip {
@@ -149,12 +161,19 @@ main{
 
 <main>
 <h1>About</h1>
-<div class="tooltip">
-<a href="https://www.tinyurl.com/footywho" target="_blank">
-	<img src="FootyWhoLogo.png" class="btn3" height="100" width="130">
-</a>
-<span class="tooltiptext">My old website</span>
-</div>
+
+<center><p class="pwd">This website is about the Tokyo 2020 Olympic games, it will give you a glimpse of the various sports and India's participation in the Olympics.
+<br>
+I have made this website for <a href="https://www.mindchamp.in/" class="hyp" target="_blank">MindChamp</a> Code-A-Bit Challenge</p></center>
+<center><div class="box1"></div></center>
+<h1>Credits</h1>
+<center>
+<ul>
+<li>Google</li>
+<li>Tokyo Olympics Official</li>
+<li>MindChamp</li>
+</ul>
+</center>
 </main>
 
 <footer>

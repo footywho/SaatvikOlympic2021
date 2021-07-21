@@ -101,8 +101,46 @@ nav a:hover::before {
 font-size:45px;
 }
 
+
+.hvzoom {
+  transition: transform .3s;
+  width: 400px;
+  height: 225px;
+  margin: 0 auto;
+}
+
+.hvzoom:hover {
+  transform: scale(1.1);
+}
+
+
+#players {
+  border-collapse: collapse;
+  width: 95%;
+}
+
+#players td, #players th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#players tr:nth-child(even){background-color: rgb(19, 136, 8, 0.4);}
+#players tr:nth-child(odd){background-color: rgb(255, 153, 51, 0.4);}
+
+#players tr:hover {background-color: rgb(227, 227, 227, 0.1);}
+
+#players th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(0, 0, 128);
+  color: white;
+}
+
+
+
 main{
-	height:1500px;
+	height:4000px;
 }
 
 .container{
@@ -197,7 +235,9 @@ marquee{
 <section class="wrapperL">
 <div class="container">
 <div class="columnL">
+<div class="hvzoom">
 <img src="MilkhaSingh.png" alt="Milkha Singh" width="400" height="225"></img>
+</div>
 </div>
 <div class ="columnL">
 <p class="columnSpL2">&#x1F338 &#x1F490 &#x1F338 <br>Milkha Singh, byname the Flying Sikh, Indian track-and-field athlete who became the first Indian male to reach the final of an Olympic athletics event when he placed fourth in the 400-metre race at the 1960 Olympic Games in Rome.<br> &#x1F338 &#x1F490 &#x1F338</p>
@@ -211,7 +251,9 @@ marquee{
 <p class="columnR2">PT Usha is one of India's greatest athletes, often called the country's "queen of track and field" and ‘The Payyoli Express’. At Los Angeles 1984, having breezed into the 400m hurdles final with impressive performances in qualifying, Usha missed out on the bronze medal by just one hundredth of a second.</p>
 </div>
 <div class="columnR">
+<div class="hvzoom">
 <img src="PTusha.jpg" alt="PT Usha" width="400" height="225"></img>
+</div>
 </div>
 </div>
 </section>
@@ -219,7 +261,9 @@ marquee{
 <section class="wrapperL">
 <div class="container">
 <div class="columnL">
+<div class="hvzoom">
 <img src="AbhBind.jpeg" alt="Abhinav Bindra" width="400" height="225"></img>
+</div>
 </div>
 <div class ="columnL">
 <p class="columnL2">The gold medal in the men's 10m air rifle at Beijing 2008 was the crowning glory in Abhinav Bindra's stellar sporting career, he was bestowed with the Padma Bhushan, India’s third-highest civilian honour, as recognition for his efforts in 2009.</p>
@@ -233,10 +277,149 @@ marquee{
 <p class="columnSpR2">PV Sindhu is the first Indian woman to win a silver medal at the Olympics. After eliminating Wang Yihan and Japanese star Nozumi Okuhara in the quarter-finals and semi-finals respectively, only Spain’s Carolina Marin was left to win the ultimate prize. While she bowed down to Marin’s form in all three sets, her silver medal at Rio 2016 was nonetheless an immense achievement for the nation.</p>
 </div>
 <div class="columnR">
-<img src="PVsindhu.png" alt="PT Usha" width="400" height="225"></img>
+<div class="hvzoom">
+<img src="PVsindhu.png" alt="PV Sindhu" width="400" height="225"></img>
+</div>
 </div>
 </div>
 </section>
+
+<section class="wrapperL">
+<div class="container">
+<div class="columnL">
+<div class="hvzoom">
+<img src="SakshiMalik.jpg" alt="Sakshi Malik" width="400" height="225"></img>
+</div>
+</div>
+<div class ="columnL">
+<p class="columnL2">Sakshi Malik became the first Indian woman wrestler to win an Olympic medal when she won a bronze medal at the Rio 2016 Olympics in the 58 kg weight category.</p>
+</div>
+</div>
+</section>
+
+<section class="wrapperR">
+<div class="container">
+<div class ="columnR">
+<p class="columnR2">In 2012, Mary Kom had risen to no.1 in the AIBA world rankings for a flyweight, and competed at the London 2012 Olympic Games, winning a bronze medal after being beaten by eventual champion Nicola Adams.</p>
+</div>
+<div class="columnR">
+<div class="hvzoom">
+<img src="MaryKom.jpg" alt="Mary Kom" width="400" height="225"></img>
+</div>
+</div>
+</div>
+</section>
+
+<section class="wrapperL">
+<div class="container">
+<div class="columnL">
+<div class="hvzoom">
+<img src="NeerajChopra.jpg" alt="Neeraj Chopra" width="400" height="225"></img>
+</div>
+</div>
+<div class ="columnL">	
+<p class="columnL2">Neeraj Chopra, having missed out on qualification for the Rio 2016 Olympic Games as an up and coming young athlete, will travel to the Tokyo Olympics as one of India's big hopes for a medal.</p>
+</div>
+</div>
+</section>
+
+<center>
+
+<h1 style="margin-top:80px;">India's Olympic Contingent</h1>
+
+<table id="players">
+
+<tbody>
+
+<tr><th>Sports</th><th>Players</th></tr>
+
+<tr><td>Archery</td><td>Men’s individual: Atanu Das, Pravin Jadhav, Tarundeep Rai
+Women’s individual: Deepika Kumari
+Men’s team: Atanu Das, Pravin Jadhav, Tarundeep Rai
+Mixed team: Deepika Kumari & Atanu Das</td></tr>
+
+<tr><td>Athletics</td><td>Men: Neeraj Chopra (javelin), Shivpal Singh (javelin), M. Sreeshankar (long jump), Tajinder Pal Toor (shot put), Jabir M. Palliyalil (400m hurdles); Muhammed Anas Yahiya, Noah Nirmal Tom, Amoj Jacob, Arokia Rajiv, Naganathan Pandi (reserve) (4x400m relay); Irfan Kolothum Thodi, Rahul Rohila, Sandeep Kumar (20km walk), Gurpreet Singh (50km walk), Avinash Sable (3,000m steeplechase)
+<br>
+Women: Kamalpreet Kaur (discus), Seema Punia (discus), Annu Rani (javelin), Dutee Chand (100m, 200m), Bhawna Jat (20km walk), Priyanka Goswami (20km walk)</td></tr>
+
+<tr><td>Badminton</td><td>Men’s singles: B. Sai Praneeth
+<br>
+Women’s singles: P. V. Sindhu
+<br>
+Men’s doubles: Chirag Shetty & Satwiksairaj Rankireddy</td></tr>
+
+<tr><td>Boxing</td><td>Men: Amit Panghal (flyweight) Manish Kaushik (lightweight), Vikas Krishan Yadav (welterweight), Ashish Kumar (middleweight), Satish Kumar (superheavyweight)
+<br>
+Women: M. C. Mary Kom (flyweight), Simranjit Kaur (lightweight), Lovlina Borgohain (welterweight), Pooja Rani (middleweight)</td></tr>
+
+<tr><td>Equestrian</td><td>Individual: Fouaad Mirza</td></tr>
+
+<tr><td>Fencing</td><td>Women’s sabre: C. A. Bhavani Devi</td></tr>
+
+<tr><td>Golf</td><td>Men’s individual: Anirban Lahiri, Udayan Mane
+<br>
+Women’s individual: Aditi Ashok</td></tr>
+
+<tr><td>Gymnastics</td><td>Women’s all-around: Pranati Nayak</td></tr>
+
+<tr><td>Hockey Men's</td><td>Goalkeeper: PR Sreejesh
+<br>
+Defenders: Harmanpreet Singh, Rupinder Pal Singh, Surender Kumar, Amit Rohidas, Birendra Lakra
+<br>
+Midfielders: Hardik Singh, Manpreet Singh, Vivek Sagar Prasad, Nilakanta Sharma, Sumit
+<br>
+Forwards: Shamsher Singh, Dilpreet Singh, Gurjant Singh, Lalit Kumar Upadhyay, Mandeep Singh
+<br>
+Standbys: Krishan Pathak (goalkeeper), Varun Kumar (defender) and Simranjit Singh (midfielder)</td></tr>
+
+<tr><td>Hockey Women's</td><td>Goalkeeper: Savita
+<br>
+Defenders: Deep Grace Ekka, Nikki Pradhan, Gurjit Kaur, Udita
+<br>
+Midfielders: Nisha, Neha, Sushila Chanu Pukhrambam, Monika, Navjot Kaur, Salima Tete
+<br>
+Forwards: Rani, Navneet Kaur, Lalremsiami, Vandana Katariya, Sharmila Devi</td></tr>
+
+<tr><td>Judo</td><td>Women: Shushila Likmabam (48kg)</td></tr>
+
+<tr><td>Rowing</td><td>Men’s lightweight double sculls | Arjun Lal & Arvind Singh</td></tr>
+
+<tr><td>Sailing</td><td>Men’s Laser: Vishnu Saravanan
+<br>
+Men’s 49er: K. C. Ganapathy & Varun Thakkar
+<br>
+Women’s Laser Radial: Nethra Kumanan</td></tr>
+
+<tr><td>Shooting</td><td>Men: Abhishek Verma (10m air pistol), Saurabh Chaudhary (10m air pistol), Angad Bajwa (skeet), Mairaj Ahmad Khan (skeet), Deepak Kumar (10m air rifle), Divyansh Singh Panwar (10m air rifle), Aishwary Tomar (50m rifle 3 positions), Sanjeev Rajput (50m rifle 3 positions)
+<br>
+Women: Manu Bhaker (10m air pistol, 25m pistol); Yashaswini Deswal (10m air pistol); Rahi Sarnobat (25m pistol); Apurvi Chandela (10m air rifle), Elavenil Valarivan (10m air rifle), Anjum Moudgil (50m rifle three positions), Tejaswini Sawant (50m rifle three positions)
+<br>
+Mixed team: Manu Bhaker & Saurabh Chaudhary (10m air pistol), Yashaswini Deswal & Abhishek Verma (10m air pistol), Anjum
+<br> Moudgil & Deepak Kumar (10m air rifle), Elavenil Valarivan & Divyansh Singh Panwar (10m air rifle)</td></tr>
+
+<tr><td>Swimming</td><td>Men: Srihari Nataraj (100m backstroke), Sajan Prakash (100m butterfly, 200m butterfly, 200m freestyle)
+<br>
+Women: Maana Patel (100m backstroke)</td></tr>
+
+<tr><td>Table Tennis</td><td>Men’s singles: A. Sharath Kamal, Sathiyan Gnanasekaran
+<br>
+Women’s singles: Manika Batra, Sutirtha Mukherjee
+<br>
+Mixed doubles: A. Sharath Kamal & Manika Batra</td></tr>
+
+<tr><td>Weightlifting</td><td>Women: S. Mirabai Chanu (49kg)</td></tr>
+
+<tr><td>Wrestling</td><td>Men’s freestyle: Ravi Kumar Dahiya (57kg), Bajrang Punia (65kg), Deepak Punia (86kg)
+<br>
+Women’s freestyle: Seema Bisla (50kg), Vinesh Phogat (53kg), Anshu Malik (57kg), Sonam Malik (62kg)</td></tr>
+
+<tr><td>Tennis</td><td>Men’s singles: Sumit Nagal
+<br>
+Women’s doubles: Sania Mirza & Ankita Raina</td></tr>
+
+</tbody>
+</table>
+</center>
 
 </main>
 

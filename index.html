@@ -59,7 +59,7 @@ font-family: 'Otomanopee One', sans-serif;
 }
 
 .secp1{
-font-size:20;
+font-size:20px;
 background-color:#F6AE2D;
 width:90%;
 margin-left:auto;
@@ -71,13 +71,13 @@ padding-right:40px;
 margin-bottom:30px;
 }
 .secp2{
-font-size:20;
+font-size:20px;
 background-color:#F6AE2D;
 width:90%;
 margin-left:auto;
 margin-right:auto;
 padding-top:1px;
-padding-bottom:30px;
+padding-bottom:300px;
 padding-left:40px;
 padding-right:40px;
 margin-bottom:50px;
@@ -134,6 +134,7 @@ tooltip {
 
 .std{
 	background-image:url("EmptyStadium.jpg");
+	background-color:#a2b5d3;
 	height:250px;
 	width:600px;
 	padding-top:155px;
@@ -141,18 +142,91 @@ tooltip {
 	text-align:center;
 	margin-left:auto;
 	margin-right:auto;
+	margin-bottom:50px;
 	display:block;
+	border:10px solid #a2b5d3;
+}
+.med{
+	background-image:url("TokyoMedals.png");
+	background-color:black;
+	height:53px;
+	width:400px;
+	padding-top:190px;
+	padding-bottom:0px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:150px;
+}
+.vidright{
+	float:right;
+	margin-right:150px;
+}
+.olymstd{
+	background-image:url("olympstad2.jpg");
+	background-color:#b06772;
+	height:109px;
+	width:600px;
+	padding-top:230px;
+	padding-bottom:0px;
+	text-align:center;
+	margin-left:100px;
+	margin-right:auto;
+	display:block;
+	background-repeat:no-repeat;
+	float:left;
+	border:10px solid #b06772;
+}
+.AqCtr{
+	background-image:url("AqCtr.jpg");
+	background-color: #1379a2;
+	height:109px;
+	width:600px;
+	padding-top:230px;
+	padding-bottom:0px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:100px;
+	display:block;
+	background-repeat:no-repeat;
+	float:right;
+	border:10px solid #1379a2;
 }
 
-.center{
+
+
+.centerstd{
+	background-color:rgba(167, 170, 171, 0.8);
+	width:600px;
+	height:80px;
+	padding-top:1px;
+}
+.centermed{
+	background-color:rgba(167, 170, 171, 0.8);
+	width:400px;
+	height:33px;
+	padding:0px;
+}
+.centerolymstd{
+	background-color:rgba(167, 170, 171, 0.8);
+	width:600px;
+	height:80px;
+	padding-top:1px;
+}
+.centerAqCtr{
 	background-color:rgba(167, 170, 171, 0.8);
 	width:600px;
 	height:80px;
 	padding-top:1px;
 }
 
+
+
 main{
-	height:2000px;
+	height:1700px;
 }
 
 footer{
@@ -192,11 +266,28 @@ font-size:24px;
 <section class="secp2">
 <p>Japan's penchant for technological finesse is something the nation and the organisers have tried to extend to this part of the Games too. For the Tokyo Olympics, medals have been made from recycled electronic gadgets - a nod to its commitment to be eco-friendly and the country's technological advancement. Citizens have personally donated their gadgets for this purpose, to encourage a sense of participation and direct association with the Games.
 </p>
-<iframe width="400" height="225" src="https://www.youtube.com/embed/QJG6duYxpMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section class="med">
+<div class="centermed"><p style="font-size:20px;">Medals for the Tokyo Olympics</p></div>
+</section>
+<iframe class="vidright" width="400" height="235" src="https://www.youtube.com/embed/QJG6duYxpMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 <section class="std">
-<div class="center"><p style="font-size:23px;">The games will be held with no spectators</p></div>
+<div class="centerstd"><p style="font-size:23px;">The games will be held with no spectators</p></div>
 </section>
+
+</section>
+<section class="olymstd">
+<div class="centerolymstd"><p style="font-size:23px;">Tokyo 2020 National Olympic Stadium</p></div>
+</section>
+
+</section>
+<section class="AqCtr">
+<div class="centerAqCtr"><p style="font-size:23px;">Tokyo Aquatics Center</p></div>
+</section>
+
+
+
+
 </main>
 
 <footer>
